@@ -441,13 +441,16 @@ align-items: center;
 }
 
 .map-img img{
-      filter: grayscale(100%);
+      /* filter: grayscale(100%); */
     width: 100%;
     border-radius: 0.3rem;
     overflow: hidden;
     
   }
 
+ .loc-name{
+  text-align: center;
+ }
   .img-overlay{
     position: relative;
     overflow: hidden;
